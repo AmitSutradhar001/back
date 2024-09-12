@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://front-anqe.onrender.com",
   credentials: true,
 };
 
